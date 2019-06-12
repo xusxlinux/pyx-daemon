@@ -13,9 +13,10 @@
 
 
 > ln -vs /usr/local/python36/bin/python3.6 /usr/local/bin/python36
+
 > ln -vs /usr/local/python36/bin/pip3.6 /usr/local/bin/pip36
 
-'''
+```
 vim /usr/bin/yum
 #!/usr/bin/python2.7
-'''
+```
