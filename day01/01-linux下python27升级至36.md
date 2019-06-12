@@ -1,5 +1,6 @@
 #### 需要安装开发工具包
 > yum group install  "base" "Development tools" -y
+> yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel -y
 #### 下载python3.6的源码包
 > wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
 #### 解压包
