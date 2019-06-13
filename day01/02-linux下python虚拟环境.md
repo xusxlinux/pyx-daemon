@@ -28,4 +28,4 @@ source /usr/local/python36/bin/virtualenvwrapper.sh         # virtualenvwrapper.
 #### 列出所有环境
 > lsvirtualenv
 #### 进入虚拟环境目录
-> cdvirtualenv
+> cdvirtualenv 
