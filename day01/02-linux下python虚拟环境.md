@@ -1,7 +1,7 @@
 #### 安装软件
 > pip3 install virtualenv
 
-> pip install virtualenvwrapper
+> pip3 install virtualenvwrapper
 
 #### 设置环境变量
 ```
