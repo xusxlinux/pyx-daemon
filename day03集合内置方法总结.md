@@ -1,0 +1,62 @@
+#### 集合内置方法
+
+	l1 = ['1', '2']
+	s1 = set()
+	
+	# 添加
+	s1.add('鲤鱼')
+	print(s1)
+	
+	# 不是key,value形式,就是集合
+	s2 = {'1', '2'}
+	print(type(s2))
+	
+	# 列表快速去重
+	print(set(l1))
+	
+	# 无序
+	s1.update(l1)
+	print(s1)
+	
+	# 删除结合排序最小元素
+	s1.pop()
+	print(s1)
+	
+	# 移除不存在元素不会报错
+	s1.discard('草鱼')
+	print(s1)
+	
+	# 移除不存在元素会报错
+	s1.remove('鲤鱼')
+	print(s1)
+	
+	# 差集 '-'
+	s1 = {'1', '2', '3'}
+	s2 = {'1', '3'}
+	s3 = s1.difference(s2)
+	print(s3)
+	s1.difference_update(s2)
+	print('--', s1)
+	
+	# 交集
+	s1 = {'1', '2', '3'}
+	s2 = {'1', '3'}
+	s3 = s1 & s2
+	s4 = s1.intersection(s2)
+	print(s3)
+	print(s4)
+	
+	# 并集
+	s3 = s1 | s2
+	s4 = s1.union(s2)
+	print(s3)
+	print(s4)
+	
+	# 对称差 --- 两个列表中不同的元素
+	s1 = {'1', '2', '4'}
+	s2 = {'1', '2', '5'}
+	s3 = (s1 | s2) - (s1 & s2)
+	print(s3)
+	
+	s4 = s1 ^ s2  # 异或
+	print(s4)
